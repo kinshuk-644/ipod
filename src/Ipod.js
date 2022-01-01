@@ -4,7 +4,6 @@ import Screen from './Screen';
 import './Ipod.css';
 import ZingTouch from 'zingtouch';
 import { render } from 'react-dom';
-import sound from './assets/music/Vicetone-Nevada.mp3'
 
 // a class component "Ipod" which contains "Screen" component inside it
 class Ipod extends React.Component {
@@ -216,7 +215,7 @@ class Ipod extends React.Component {
         return (
             <div className='Ipod' id='ipod'>
                 <audio className="audio-element">
-                        <source src={sound}></source>
+                        <source src="https://res.cloudinary.com/dilxqj69w/video/upload/v1641042002/Vicetone-Nevada_hxhwws.mp3"></source>
                 </audio>
 
                 {/* pass props to Screen component  */}

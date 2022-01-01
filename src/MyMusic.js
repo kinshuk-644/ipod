@@ -1,6 +1,5 @@
 // import all necessary packages, styles and components
 import React from 'react';
-import sound from './assets/music/Vicetone-Nevada.mp3'
 
 // a class component "MyMusic" which renders some content(music playing page)
 class MyMusic extends React.Component {

@@ -1,6 +1,5 @@
 // import all necessary packages, styles and components
 import React from 'react';
-import artistImage from './assets/images/Kinshuk.png';
 
 // a class component "Artists" which renders some content
 class Artists extends React.Component {
@@ -43,7 +42,7 @@ const styles = {
         height: '65%',
         width: '28%',
         borderRadius: '50%',
-        backgroundImage: `url(${artistImage})`,
+        backgroundImage: `url("https://res.cloudinary.com/dilxqj69w/image/upload/v1627114103/5336880_oygcgf.png")`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         alignSelf: 'center'
