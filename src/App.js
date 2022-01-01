@@ -1,25 +1,19 @@
-import logo from './logo.svg';
+// import all necessary packages, styles and components
 import './App.css';
+import React from "react";
+import Ipod from './Ipod';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// a class component "App" which contains "Ipod" component inside it
+class App extends React.Component {
+
+  render() {
+    return (
+      <div className="App">
+        <Ipod />
+      </div>
+    );
+  }
 }
 
+// export the component
 export default App;

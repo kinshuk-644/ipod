@@ -1,0 +1,16 @@
+/* styles for sidemenu div  */
+.Sidemenu {
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color: white;
+    /* padding: 13px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.active {
+    background-color: #3783D8;
+    color: white;
+}
