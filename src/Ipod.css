@@ -7,7 +7,6 @@
 .Ipod {
     width: 30vw;
     height: 66vh;
-    /* border: 4px solid red; */
     border-radius: 60px;
     background-color: #a1a19d;
     display: flex;
@@ -24,7 +23,6 @@
 .Controls {
     width: 260px;
     height: 260px;
-    /* border: 1px solid red; */
     background-color: white;
     color: #D8D8D4;
     border-radius: 200px;
@@ -36,8 +34,8 @@
     font-size: 26px;
     text-align: center;
     font-weight: bold;
-    /* border: 1px solid red; */
     position: absolute;
+    cursor: pointer;
     left: 78px;
     top: 22px;
 }
@@ -45,7 +43,6 @@
 .Left img{
     width: 30px;
     height: 30px;
-    /* border: 1px solid red; */
     position: absolute;
     top: 115px;
     left: 22px;
@@ -59,12 +56,12 @@
     top: 70px;
     left: 70px;
     background-color: #7b7b7a;
+    cursor: pointer;
 }
 
 .Right img{
     width: 30px;
     height: 30px;
-    /* border: 1px solid red; */
     position: absolute;
     top: 115px;
     left: 208px;
@@ -73,7 +70,6 @@
 .Bottom img{
     width: 46px;
     height: 46px;
-    /* border: 1px solid red; */
     position: absolute;
     top: 200px;
     left: 107px;
